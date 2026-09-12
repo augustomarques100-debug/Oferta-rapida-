@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Oferta R\u00e1pida",
+    "slug": "oferta-rapida",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "ofertarapida",
+    "android": {
+      "package": "com.ofertarapida.app",
+      "versionCode": 12,
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6A00"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
